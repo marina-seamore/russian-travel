@@ -1,0 +1,11 @@
+.place__text{
+    max-width: 484px;
+    margin: 24px 0 0 40px;
+    grid: 2/2;
+}
+
+@media all and (max-width: 695px){
+    .place__text{
+        margin: 6px 0 0;
+    }
+}

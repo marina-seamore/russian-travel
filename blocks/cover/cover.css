@@ -1,0 +1,18 @@
+.cover{
+    width: 92.5%;
+    height: 740px;
+    margin: 92px auto 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+}
+
+@media all and (max-width: 1024px){
+    .cover{
+        width: 100%;
+    }
+}
