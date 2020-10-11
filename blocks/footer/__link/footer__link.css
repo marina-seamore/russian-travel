@@ -9,6 +9,10 @@
     transition: opacity 0.3s ease;
 }
 
+.footer__link a{
+    margin: 0;
+}
+
 .footer__link:hover {
     opacity: 0.8;
 }

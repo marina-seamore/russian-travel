@@ -1,11 +1,14 @@
 .footer__links {
     display: flex;
     flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 @media all and (max-width: 695px) {
     .footer__links{
         flex-direction: column;
-        margin: 32px 0 48px;
+        margin: 0 0 48px;
     }
 }
