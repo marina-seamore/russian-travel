@@ -8,7 +8,9 @@
     flex-direction: column;
     overflow: hidden;
     position: relative;
-    text-decoration: none;
+    background-image: url(../../../images/cover-trains.jpg);
+    object-fit: cover;
+    background-position: center;
 }
 
 .cover:before {
