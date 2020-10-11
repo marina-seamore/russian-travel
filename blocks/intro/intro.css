@@ -1,5 +1,5 @@
 .intro{
-    max-width: 50%;
+    max-width: 690px;
     margin: 92px 0 0 148px;
     display: flex;
     flex-direction: column;
@@ -15,5 +15,11 @@
     .intro{
         margin: 88px 0 0 24px;
         max-width: 93.75%;
+    }
+}
+@media all and (max-width: 695px){
+    .intro{
+        margin: 64px 16px 0 16px;
+        width: 100%;
     }
 }

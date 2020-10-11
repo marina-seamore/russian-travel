@@ -2,12 +2,10 @@
     margin: 0;
     padding: 0;
     max-width: 460px;
-    max-height: 152px;
     font-size: 72px;
     font-weight: 900;
     line-height: 1.06;
     color: white;
-    grid: 1;
 }
 
 @media all and (max-width: 768px){
@@ -25,5 +23,6 @@
         line-height: 1.09;
         max-width: 288px;
         max-height: 35px;
+        padding: 0 16px;
     }
 }

@@ -1,0 +1,11 @@
+.place__text{
+    width: auto;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+@media all and (max-width: 695px){
+    .place__text{
+        padding: 0 16px;
+    }
+}
